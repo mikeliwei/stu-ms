@@ -3,7 +3,7 @@ package com.mikeliwei.aistumanage;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+// 1
 @SpringBootApplication
 @MapperScan("com.mikeliwei.aistumanage.mapper")
 public class AiStuManageApplication {
