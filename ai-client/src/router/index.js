@@ -3,7 +3,7 @@ import { getToken } from '../store/auth'
 
 const routes = [
   {
-    path: '/login',
+    path: '/login' ,
     name: 'login',
     component: () => import('../views/LoginView.vue'),
     meta: { title: '用户登录', public: true },
